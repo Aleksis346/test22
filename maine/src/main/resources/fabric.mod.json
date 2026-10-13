@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ai_speedrun_frend",
+  "version": "${version}",
+  "name": "AI Speedrun Frend",
+  "description": "Spawns AI player 'frend' that speedruns and then helps the player.",
+  "authors": [
+    "user"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.frend.ai.FrendMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
